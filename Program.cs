@@ -1,15 +1,16 @@
-﻿//Packages
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace CSharpIntro
 {
-    class IT2040
+    class Program
     {
+        //Static = Entry Point 
+        //Void bc char and strings
+        //Main(String[] args)
+        //https://www.tutorialspoint.com/csharp/csharp_strings.htm
         static void Main(string[] args)
         {
+            //https://www.tutorialspoint.com/csharp/csharp_variables.htm (useful for future)
             //Byte Decleration: sample1 with an initial value of 0x3A and sample2 with an initial value of 58
             byte sample1 = 0x3A, sample2 = 58;
             //Int Varibles Heart Rate = 85, Age = 0, and Choice = 2
@@ -25,6 +26,7 @@ namespace CSharpIntro
             //Strings (Thank god C# is easier than C for this)
             String Greeting = "Hello", Name = "Karen";
             //Compare sample1 to sample2 and if they are equal display “The samples are equal.” otherwise display “The samples are not equal.”
+            //https://www.tutorialspoint.com/csharp/csharp_strings.htm
             if (sample1 == sample2)
             {
                 Console.WriteLine("The samples are equal.");
